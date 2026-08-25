@@ -1,0 +1,4 @@
+Placez ici votre photo au format images/avatar.jpg (idéalement carrée,
+ex. 400x400px) pour qu'elle s'affiche sur la page d'accueil (index.qmd).
+
+Vous pouvez ensuite supprimer ce fichier PLACEHOLDER.txt.

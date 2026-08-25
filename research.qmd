@@ -1,0 +1,51 @@
+---
+title: "Research"
+---
+
+## Publications
+
+Les publications sont listées par ordre antéchronologique. Dupliquez le
+bloc ci-dessous pour chaque nouvel article (copiez-collez la section
+`::: {.publication}` … `:::` en entier).
+
+::: {.publication}
+### [À COMPLÉTER : Titre de l'article](#)
+
+**Auteurs :** [À COMPLÉTER : Nom1, Nom2, Nom3]
+
+::: {.meta}
+[À COMPLÉTER : Nom de la revue], [À COMPLÉTER : année] · DOI: [À COMPLÉTER]
+:::
+
+[À COMPLÉTER : résumé de l'article en 100-150 mots — reprenez l'abstract ou
+rédigez un résumé accessible des principaux résultats et de leur portée.]
+
+::: {.links}
+[Version publiée (DOI)](#) ·
+[Version sur ce site](#) ·
+[Code / données](#) ·
+[Preprint (HAL / SSRN)](#)
+:::
+:::
+
+::: {.publication}
+### [À COMPLÉTER : Titre du deuxième article](#)
+
+**Auteurs :** [À COMPLÉTER]
+
+::: {.meta}
+[À COMPLÉTER : revue], [À COMPLÉTER : année] · DOI: [À COMPLÉTER]
+:::
+
+[À COMPLÉTER : résumé.]
+
+::: {.links}
+[Version publiée (DOI)](#) ·
+[Preprint](#)
+:::
+:::
+
+## Travaux en cours
+
+[À COMPLÉTER : liste ou description des projets de recherche en cours,
+sans lien si non publiés.]

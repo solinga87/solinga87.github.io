@@ -1,0 +1,34 @@
+---
+title: ""
+page-layout: full
+---
+
+::: {.avatar-block}
+![](images/avatar.jpg){.avatar}
+:::
+
+# [À COMPLÉTER : Prénom Nom]
+
+**[À COMPLÉTER : titre — ex. « Économiste », « Maître de conférences », « Doctorant »]**
+[À COMPLÉTER : affiliation — université, laboratoire, institution]
+
+::: {.social-links}
+[Email](mailto:votre.email@exemple.fr) ·
+[ORCID](https://orcid.org/0000-0000-0000-0000) ·
+[Google Scholar](https://scholar.google.com/citations?user=VOTRE_ID)
+:::
+
+## À propos
+
+[À COMPLÉTER : courte biographie — 3 à 5 phrases décrivant votre domaine de
+recherche, votre approche méthodologique, et ce qui motive vos travaux.
+Exemple de ton (à réécrire avec votre contenu) : « Je suis économiste,
+spécialisé·e dans [thématique]. Mes recherches portent sur [sujet], en
+combinant [méthode/données] pour étudier [question]. »]
+
+## Intérêts de recherche
+
+- [À COMPLÉTER : thème de recherche 1]
+- [À COMPLÉTER : thème de recherche 2]
+- [À COMPLÉTER : thème de recherche 3]
+- [À COMPLÉTER : thème de recherche 4]
