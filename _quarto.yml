@@ -3,7 +3,7 @@ project:
   output-dir: _site
 
 website:
-  title: "[À COMPLÉTER : Prénom Nom]"
+  title: "Serge Olinga Olinga"
   site-url: "https://solinga87.github.io"
   search: true
   navbar:
@@ -17,7 +17,7 @@ website:
       - href: contact.qmd
         text: Contact
   page-footer:
-    center: "© 2026 [À COMPLÉTER : Prénom Nom]"
+    center: "© 2026 Serge Olinga Olinga"
 
 format:
   html:

@@ -7,28 +7,27 @@ page-layout: full
 ![](images/avatar.jpg){.avatar}
 :::
 
-# [À COMPLÉTER : Prénom Nom]
+# Serge Olinga Olinga
 
-**[À COMPLÉTER : titre — ex. « Économiste », « Maître de conférences », « Doctorant »]**
-[À COMPLÉTER : affiliation — université, laboratoire, institution]
+**Étudiant en Master 2 Économie — Université Clermont Auvergne**
 
 ::: {.social-links}
-[Email](mailto:votre.email@exemple.fr) ·
-[ORCID](https://orcid.org/0000-0000-0000-0000) ·
-[Google Scholar](https://scholar.google.com/citations?user=VOTRE_ID)
+[Email](mailto:sergeolinga320@gmail.com)
 :::
 
 ## À propos
 
-[À COMPLÉTER : courte biographie — 3 à 5 phrases décrivant votre domaine de
-recherche, votre approche méthodologique, et ce qui motive vos travaux.
-Exemple de ton (à réécrire avec votre contenu) : « Je suis économiste,
-spécialisé·e dans [thématique]. Mes recherches portent sur [sujet], en
-combinant [méthode/données] pour étudier [question]. »]
+Étudiant en Master 2 Économie à l'Université Clermont Auvergne, je
+m'intéresse aux ressorts du commerce international et de la finance
+internationale, et à ce qu'ils impliquent pour la conception des
+politiques publiques. J'aime comprendre comment les échanges et les
+flux de capitaux mondiaux façonnent les trajectoires économiques des
+nations — et en tirer des grilles de lecture utiles à la décision
+publique. Rigueur analytique et curiosité pour les enjeux concrets
+guident mon travail.
 
 ## Intérêts de recherche
 
-- [À COMPLÉTER : thème de recherche 1]
-- [À COMPLÉTER : thème de recherche 2]
-- [À COMPLÉTER : thème de recherche 3]
-- [À COMPLÉTER : thème de recherche 4]
+- Commerce international
+- Finance internationale
+- Politiques publiques

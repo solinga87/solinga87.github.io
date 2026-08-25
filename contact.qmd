@@ -4,15 +4,8 @@ title: "Contact"
 
 ## Coordonnées
 
-**Email :** [votre.email@exemple.fr](mailto:votre.email@exemple.fr)
-
-**Adresse professionnelle :**
-[À COMPLÉTER : institution]
-[À COMPLÉTER : adresse]
+**Email :** [sergeolinga320@gmail.com](mailto:sergeolinga320@gmail.com)
 
 ## Liens
 
-- [ORCID](https://orcid.org/0000-0000-0000-0000)
-- [Google Scholar](https://scholar.google.com/citations?user=VOTRE_ID)
-- [LinkedIn](#) *(optionnel — [À COMPLÉTER] ou supprimez cette ligne)*
 - [GitHub](https://github.com/solinga87)
