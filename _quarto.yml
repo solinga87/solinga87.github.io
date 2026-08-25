@@ -5,24 +5,17 @@ project:
 website:
   title: "[À COMPLÉTER : Prénom Nom]"
   site-url: "https://solinga87.github.io"
+  search: true
   navbar:
+    type: dark
+    background: primary
     left:
       - href: index.qmd
-        text: Home
+        text: Accueil
       - href: research.qmd
-        text: Research
+        text: Recherche
       - href: contact.qmd
         text: Contact
-    right:
-      - icon: envelope
-        href: "mailto:votre.email@exemple.fr"
-        aria-label: Email
-      - icon: mortarboard-fill
-        href: "https://orcid.org/0000-0000-0000-0000"
-        aria-label: ORCID
-      - icon: journal-text
-        href: "https://scholar.google.com/citations?user=VOTRE_ID"
-        aria-label: Google Scholar
   page-footer:
     center: "© 2026 [À COMPLÉTER : Prénom Nom]"
 
