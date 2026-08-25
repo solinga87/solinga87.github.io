@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Les publications sont listées par ordre antéchronologique. Dupliquez le bloc ci-dessous pour chaque nouvel article (copiez-collez la section ::: {.publication} … ::: en entier).\n\n\nAuteurs : [À COMPLÉTER : Nom1, Nom2, Nom3]\n\n[À COMPLÉTER : Nom de la revue], [À COMPLÉTER : année] · DOI: [À COMPLÉTER]\n\n[À COMPLÉTER : résumé de l’article en 100-150 mots — reprenez l’abstract ou rédigez un résumé accessible des principaux résultats et de leur portée.]\n\nVersion publiée (DOI) · Version sur ce site · Code / données · Preprint (HAL / SSRN)\n\n\n\n\nAuteurs : [À COMPLÉTER]\n\n[À COMPLÉTER : revue], [À COMPLÉTER : année] · DOI: [À COMPLÉTER]\n\n[À COMPLÉTER : résumé.]\n\nVersion publiée (DOI) · Preprint"
+  },
+  {
+    "objectID": "research.html#publications",
+    "href": "research.html#publications",
+    "title": "Research",
+    "section": "",
+    "text": "Les publications sont listées par ordre antéchronologique. Dupliquez le bloc ci-dessous pour chaque nouvel article (copiez-collez la section ::: {.publication} … ::: en entier).\n\n\nAuteurs : [À COMPLÉTER : Nom1, Nom2, Nom3]\n\n[À COMPLÉTER : Nom de la revue], [À COMPLÉTER : année] · DOI: [À COMPLÉTER]\n\n[À COMPLÉTER : résumé de l’article en 100-150 mots — reprenez l’abstract ou rédigez un résumé accessible des principaux résultats et de leur portée.]\n\nVersion publiée (DOI) · Version sur ce site · Code / données · Preprint (HAL / SSRN)\n\n\n\n\nAuteurs : [À COMPLÉTER]\n\n[À COMPLÉTER : revue], [À COMPLÉTER : année] · DOI: [À COMPLÉTER]\n\n[À COMPLÉTER : résumé.]\n\nVersion publiée (DOI) · Preprint"
+  },
+  {
+    "objectID": "research.html#travaux-en-cours",
+    "href": "research.html#travaux-en-cours",
+    "title": "Research",
+    "section": "Travaux en cours",
+    "text": "Travaux en cours\n[À COMPLÉTER : liste ou description des projets de recherche en cours, sans lien si non publiés.]"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Email : votre.email@exemple.fr\nAdresse professionnelle : [À COMPLÉTER : institution] [À COMPLÉTER : adresse]"
+  },
+  {
+    "objectID": "contact.html#coordonnées",
+    "href": "contact.html#coordonnées",
+    "title": "Contact",
+    "section": "",
+    "text": "Email : votre.email@exemple.fr\nAdresse professionnelle : [À COMPLÉTER : institution] [À COMPLÉTER : adresse]"
+  },
+  {
+    "objectID": "contact.html#liens",
+    "href": "contact.html#liens",
+    "title": "Contact",
+    "section": "Liens",
+    "text": "Liens\n\nORCID\nGoogle Scholar\nLinkedIn (optionnel — [À COMPLÉTER] ou supprimez cette ligne)\nGitHub"
+  },
+  {
+    "objectID": "index.html#à-propos",
+    "href": "index.html#à-propos",
+    "title": "[À COMPLÉTER : Prénom Nom]",
+    "section": "À propos",
+    "text": "À propos\n[À COMPLÉTER : courte biographie — 3 à 5 phrases décrivant votre domaine de recherche, votre approche méthodologique, et ce qui motive vos travaux. Exemple de ton (à réécrire avec votre contenu) : « Je suis économiste, spécialisé·e dans [thématique]. Mes recherches portent sur [sujet], en combinant [méthode/données] pour étudier [question]. »]"
+  },
+  {
+    "objectID": "index.html#intérêts-de-recherche",
+    "href": "index.html#intérêts-de-recherche",
+    "title": "[À COMPLÉTER : Prénom Nom]",
+    "section": "Intérêts de recherche",
+    "text": "Intérêts de recherche\n\n[À COMPLÉTER : thème de recherche 1]\n[À COMPLÉTER : thème de recherche 2]\n[À COMPLÉTER : thème de recherche 3]\n[À COMPLÉTER : thème de recherche 4]"
+  }
+]
