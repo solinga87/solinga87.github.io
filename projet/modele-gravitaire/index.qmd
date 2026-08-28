@@ -12,7 +12,9 @@ link-code: "https://github.com/solinga87"
 order: 2
 ---
 
-[Rapport](#){.btn .btn-primary}
+::: {.fiche-header-links}
+[Code](https://github.com/solinga87){.btn .btn-sm .btn-outline-secondary}
+:::
 
 ## Question
 

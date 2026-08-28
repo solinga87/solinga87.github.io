@@ -236,22 +236,23 @@ footer {
   }
 }
 
-/* --- Contact : grille de cadres cliquables --- */
+/* --- Contact : cadres longs, pleine largeur --- */
 .contact-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.75rem;
-  max-width: 920px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 100%;
   margin-top: 2rem;
 }
 
 .contact-card {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 0.6rem;
-  min-height: 170px;
-  padding: 2.25rem 2.25rem;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 2rem;
+  width: 100%;
+  min-height: 96px;
+  padding: 1.9rem 2.5rem;
   border: 1px solid #e2e2dc;
   border-radius: 8px;
   text-decoration: none;
@@ -266,21 +267,32 @@ footer {
 }
 
 .contact-card .contact-label {
+  flex: 0 0 130px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 0.8rem;
+  font-size: 0.82rem;
   font-weight: 600;
   color: #b5532a;
 }
 
 .contact-card .contact-value {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   color: #1a1a1a;
   word-break: break-word;
 }
 
 @media (max-width: 680px) {
-  .contact-grid {
-    grid-template-columns: 1fr;
+  .contact-card {
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 1.5rem 1.6rem;
   }
+  .contact-card .contact-label {
+    flex-basis: auto;
+  }
+}
+
+/* --- Fiches : lien Code en tete (a la place de la date) --- */
+.fiche-header-links {
+  margin: -0.25rem 0 2rem;
 }
