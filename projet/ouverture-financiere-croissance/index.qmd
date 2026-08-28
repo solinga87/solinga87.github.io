@@ -5,7 +5,6 @@ image: cover.svg
 image-caption: "Volatilité de la croissance du PIB selon le degré d'ouverture financière (moyennes par décile)."
 image-alt: "Graphique reliant ouverture financière et volatilité de la croissance"
 listing-label: "PROJET DE RECHERCHE"
-author: "Serge Olinga Olinga"
 pub-info: "Master 2 Économie · Université Clermont Auvergne · 2026"
 link-report: "#"
 link-code: "https://github.com/solinga87"

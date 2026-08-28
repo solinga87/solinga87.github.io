@@ -5,7 +5,6 @@ image: cover.svg
 image-caption: "Prévisions d'inflation à 12 mois et intervalles de confiance à 80 % et 95 %."
 image-alt: "Courbe d'inflation observée et prévue avec bandes d'incertitude"
 listing-label: "ANALYSE DE DONNÉES"
-author: "Serge Olinga Olinga"
 pub-info: "Projet personnel · 2026"
 link-report: "#"
 link-code: "https://github.com/solinga87"

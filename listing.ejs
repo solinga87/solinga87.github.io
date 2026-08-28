@@ -12,9 +12,7 @@
 <div class="course-label"><%= item['listing-label'] %></div>
 <% } %>
 <h3 class="course-title"><a href="<%= item.path %>"><%= item.title %></a></h3>
-<% if (item.author) { %>
-<div class="course-authors"><%= item.author %></div>
-<% } %>
+<div class="course-authors"><%= item.author ? item.author : 'Serge Olinga Olinga' %></div>
 <% if (item['pub-info']) { %>
 <div class="course-pubinfo"><%= item['pub-info'] %></div>
 <% } %>
