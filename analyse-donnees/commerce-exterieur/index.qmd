@@ -1,0 +1,35 @@
+---
+title: "Tableau de bord du commerce extérieur"
+description: "Exploration et visualisation des exportations et importations : partenaires, produits, soldes commerciaux et dynamique sur vingt ans."
+image: cover.svg
+image-caption: "Décomposition du solde commercial par grand groupe de produits, 2004–2024."
+image-alt: "Tableau de bord de statistiques du commerce extérieur"
+listing-label: "ANALYSE DE DONNÉES"
+categories: [Commerce international, Visualisation, R]
+author: "Serge Olinga Olinga"
+pub-info: "Projet personnel · 2026"
+link-report: "#"
+link-code: "https://github.com/solinga87"
+date: "2026-07-20"
+---
+
+## Objectif
+
+Construire un tableau de bord reproductible qui synthétise la position
+commerciale d'un pays : principaux partenaires, spécialisation par produit
+et évolution du solde.
+
+## Données
+
+- Séries d'exportations et importations (Comtrade / douanes nationales)
+- Nomenclature produits harmonisée (SH2)
+
+## Outils
+
+R (`tidyverse`, `ggplot2`), rapport paramétré Quarto, mise à jour
+automatisée des figures.
+
+## Contenu
+
+*À compléter : captures du tableau de bord, principaux constats,
+lien vers la version interactive.*

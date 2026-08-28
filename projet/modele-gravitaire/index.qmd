@@ -1,0 +1,37 @@
+---
+title: "Déterminants des flux commerciaux bilatéraux"
+description: "Estimation d'un modèle de gravité sur données de panel pour mesurer l'effet de la distance, des accords commerciaux et de la monnaie commune sur les échanges."
+image: cover.svg
+image-caption: "Flux commerciaux bilatéraux prédits par le modèle de gravité (échantillon 2000–2020)."
+image-alt: "Carte stylisée de flux commerciaux entre pays"
+listing-label: "PROJET DE RECHERCHE"
+categories: [Commerce international, Économétrie, Panel]
+author: "Serge Olinga Olinga"
+pub-info: "Master 2 Économie · Université Clermont Auvergne · 2026"
+link-report: "#"
+link-code: "https://github.com/solinga87"
+date: "2026-05-15"
+---
+
+## Question
+
+Quels sont les principaux déterminants des échanges commerciaux entre
+deux pays, et quel poids relatif accorder à la géographie, aux
+institutions et aux politiques commerciales ?
+
+## Données
+
+- Flux commerciaux bilatéraux (BACI / CEPII), 2000–2020
+- Variables de gravité : PIB, distance, langue commune, frontière, colonie
+- Accords commerciaux régionaux et unions monétaires
+
+## Méthode
+
+Modèle de gravité estimé en PPML (Poisson pseudo-maximum de vraisemblance)
+avec effets fixes pays-origine × année et pays-destination × année, pour
+tenir compte des résistances multilatérales.
+
+## Résultats
+
+*À compléter : coefficients estimés, élasticité au commerce de la distance
+et des accords commerciaux, tests de robustesse.*

@@ -12,12 +12,13 @@ website:
     left:
       - href: index.qmd
         text: Accueil
-      - href: research.qmd
-        text: Recherche
-      - href: contact.qmd
-        text: Contact
+      - href: projet.qmd
+        text: Projet
+      - href: analyse-donnees.qmd
+        text: "Analyse de données"
   page-footer:
     center: "© 2026 Serge Olinga Olinga"
+    right: "[Contact](/contact.qmd)"
 
 format:
   html:

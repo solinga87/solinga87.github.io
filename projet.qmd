@@ -1,0 +1,14 @@
+---
+title: "Projet"
+page-layout: full
+listing:
+  id: projets
+  contents: projet
+  template: listing.ejs
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+---
+
+Projets d'économie appliquée : question de recherche, données, méthode et résultats.

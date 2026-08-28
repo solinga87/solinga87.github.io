@@ -1,0 +1,36 @@
+---
+title: "Ouverture financière et volatilité de la croissance"
+description: "Étude empirique du lien entre intégration financière internationale et volatilité macroéconomique dans les économies émergentes et en développement."
+image: cover.svg
+image-caption: "Volatilité de la croissance du PIB selon le degré d'ouverture financière (moyennes par décile)."
+image-alt: "Graphique reliant ouverture financière et volatilité de la croissance"
+listing-label: "PROJET DE RECHERCHE"
+categories: [Finance internationale, Croissance, Politiques publiques]
+author: "Serge Olinga Olinga"
+pub-info: "Master 2 Économie · Université Clermont Auvergne · 2026"
+link-report: "#"
+link-code: "https://github.com/solinga87"
+date: "2026-06-30"
+---
+
+## Question
+
+L'ouverture du compte de capital réduit-elle ou amplifie-t-elle la
+volatilité de la croissance dans les pays émergents et en développement ?
+
+## Données
+
+- Indices d'ouverture financière (Chinn-Ito, mesures de facto)
+- Croissance du PIB réel par habitant, 1990–2022
+- Contrôles : qualité institutionnelle, profondeur financière, termes de l'échange
+
+## Méthode
+
+Régressions en panel dynamique (GMM en système) avec interactions entre
+ouverture financière et niveau de développement financier, pour tester
+l'hypothèse de seuil.
+
+## Résultats
+
+*À compléter : effet moyen, rôle du seuil de développement financier,
+implications pour le séquençage de la libéralisation.*

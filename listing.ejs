@@ -1,0 +1,35 @@
+<div class="course-listing">
+<% for (const item of items) { %>
+<div class="course-item">
+<div class="course-thumb">
+<a href="<%= item.path %>"><img src="<%= item.image ? item.image : 'images/course-placeholder.svg' %>" alt="<%= item['image-alt'] ? item['image-alt'] : item.title %>" loading="lazy"></a>
+<% if (item['image-caption']) { %>
+<figcaption class="course-thumb-caption"><%= item['image-caption'] %></figcaption>
+<% } %>
+</div>
+<div class="course-body">
+<% if (item['listing-label']) { %>
+<div class="course-label"><%= item['listing-label'] %></div>
+<% } %>
+<h3 class="course-title"><a href="<%= item.path %>"><%= item.title %></a></h3>
+<% if (item.author) { %>
+<div class="course-authors"><%= item.author %></div>
+<% } %>
+<% if (item['pub-info']) { %>
+<div class="course-pubinfo"><%= item['pub-info'] %></div>
+<% } %>
+<% if (item.description) { %>
+<p class="course-desc"><%= item.description %></p>
+<% } %>
+<div class="course-links">
+<% if (item['link-report']) { %>
+<a class="btn btn-sm btn-primary" href="<%= item['link-report'] %>">Rapport / Document</a>
+<% } %>
+<% if (item['link-code']) { %>
+<a class="btn btn-sm btn-outline-secondary" href="<%= item['link-code'] %>">Code</a>
+<% } %>
+</div>
+</div>
+</div>
+<% } %>
+</div>

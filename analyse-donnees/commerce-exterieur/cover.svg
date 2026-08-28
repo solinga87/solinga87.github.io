@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#f7f7f4"/>
+  <rect x="0.5" y="0.5" width="639" height="399" fill="none" stroke="#dcdcd6"/>
+  <line x1="70" y1="200" x2="590" y2="200" stroke="#b9b9b0" stroke-width="1.5"/>
+  <g fill="#4a4a44">
+    <rect x="110" y="140" width="40" height="60"/>
+    <rect x="180" y="120" width="40" height="80"/>
+    <rect x="250" y="160" width="40" height="40"/>
+  </g>
+  <g fill="#9a9a90">
+    <rect x="330" y="200" width="40" height="70"/>
+    <rect x="400" y="200" width="40" height="45"/>
+    <rect x="470" y="200" width="40" height="90"/>
+  </g>
+  <text x="320" y="370" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#6b6b63">Solde commercial</text>
+</svg>

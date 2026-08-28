@@ -63,3 +63,87 @@ footer {
   color: #888;
   font-size: 0.85rem;
 }
+
+/* --- Listes de fiches (Projet, Analyse de données) --- */
+.course-listing {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.course-item {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 2rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.course-item:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 680px) {
+  .course-item {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.course-thumb img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e2e2dc;
+}
+
+.course-thumb-caption {
+  margin-top: 0.5rem;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: #888;
+  line-height: 1.4;
+}
+
+.course-label {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #b5532a;
+  margin-bottom: 0.35rem;
+}
+
+.course-title {
+  margin: 0 0 0.4rem;
+  font-size: 1.35rem;
+}
+
+.course-title a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.course-title a:hover {
+  text-decoration: underline;
+}
+
+.course-authors {
+  color: #444;
+  margin-bottom: 0.15rem;
+}
+
+.course-pubinfo {
+  font-style: italic;
+  color: #777;
+  margin-bottom: 0.6rem;
+}
+
+.course-desc {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.course-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}

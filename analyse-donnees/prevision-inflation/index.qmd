@@ -1,0 +1,35 @@
+---
+title: "Prévision de l'inflation par séries temporelles"
+description: "Comparaison de modèles ARIMA, VAR et lissage exponentiel pour prévoir l'inflation mensuelle à court terme, avec évaluation hors échantillon."
+image: cover.svg
+image-caption: "Prévisions d'inflation à 12 mois et intervalles de confiance à 80 % et 95 %."
+image-alt: "Courbe d'inflation observée et prévue avec bandes d'incertitude"
+listing-label: "ANALYSE DE DONNÉES"
+categories: [Macroéconomie, Séries temporelles, Prévision]
+author: "Serge Olinga Olinga"
+pub-info: "Projet personnel · 2026"
+link-report: "#"
+link-code: "https://github.com/solinga87"
+date: "2026-08-10"
+---
+
+## Objectif
+
+Évaluer quelques modèles simples de prévision de l'inflation mensuelle et
+mesurer leur performance hors échantillon.
+
+## Données
+
+- Indice des prix à la consommation (série mensuelle, 2005–2025)
+- Variables auxiliaires : prix de l'énergie, taux de change, masse monétaire
+
+## Méthode
+
+- Modèles : ARIMA, lissage exponentiel (ETS), VAR réduit
+- Validation par fenêtre glissante, critères RMSE et MAE
+- Combinaison de prévisions
+
+## Résultats
+
+*À compléter : classement des modèles, gains de la combinaison,
+limites et pistes d'amélioration.*

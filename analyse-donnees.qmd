@@ -1,0 +1,14 @@
+---
+title: "Analyse de données"
+page-layout: full
+listing:
+  id: analyses
+  contents: analyse-donnees
+  template: listing.ejs
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+---
+
+Travaux d'analyse et de visualisation de données économiques.

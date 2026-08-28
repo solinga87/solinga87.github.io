@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400">
+  <rect width="640" height="400" fill="#f7f7f4"/>
+  <rect x="0.5" y="0.5" width="639" height="399" fill="none" stroke="#dcdcd6"/>
+  <line x1="70" y1="340" x2="590" y2="340" stroke="#b9b9b0" stroke-width="1.5"/>
+  <line x1="70" y1="60" x2="70" y2="340" stroke="#b9b9b0" stroke-width="1.5"/>
+  <g fill="#4a4a44">
+    <rect x="110" y="250" width="48" height="90"/>
+    <rect x="200" y="210" width="48" height="130"/>
+    <rect x="290" y="230" width="48" height="110"/>
+    <rect x="380" y="160" width="48" height="180"/>
+    <rect x="470" y="110" width="48" height="230"/>
+  </g>
+  <text x="320" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#6b6b63">Ouverture &amp; volatilité</text>
+</svg>
