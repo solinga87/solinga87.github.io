@@ -53,32 +53,3 @@ Construction de jeux de données à partir de sources statistiques,
 économétrie appliquée et analyses reproductibles.
 :::
 :::
-
-::: {.featured}
-## Sélection de travaux
-
-::: {.featured-item}
-![](projet/modele-gravitaire/cover.svg){.featured-img}
-
-::: {.featured-body}
-::: {.featured-label}
-Projet en vedette
-:::
-
-### [Déterminants des flux commerciaux bilatéraux](projet/modele-gravitaire/index.qmd)
-
-::: {.featured-meta}
-Projet de recherche · Master 2 · 2026
-:::
-
-Estimation d'un modèle de gravité sur données de panel pour mesurer
-l'effet de la distance, des accords commerciaux et de la monnaie commune
-sur les échanges.
-
-::: {.featured-links}
-[Voir le projet](projet/modele-gravitaire/index.qmd) ·
-[Tous les projets](projet.qmd)
-:::
-:::
-:::
-:::

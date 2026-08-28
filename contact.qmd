@@ -2,20 +2,15 @@
 title: "Contact"
 ---
 
-::: {.contact-list}
-
-::: {.contact-row}
-::: {.contact-label}
-Email
-:::
-[sergeolinga320@gmail.com](mailto:sergeolinga320@gmail.com)
-:::
-
-::: {.contact-row}
-::: {.contact-label}
-LinkedIn
-:::
-[fr.linkedin.com/in/serge-olinga-712706262](https://fr.linkedin.com/in/serge-olinga-712706262)
-:::
-
-:::
+```{=html}
+<div class="contact-grid">
+  <a class="contact-card" href="mailto:sergeolinga320@gmail.com">
+    <span class="contact-label">Email</span>
+    <span class="contact-value">sergeolinga320@gmail.com</span>
+  </a>
+  <a class="contact-card" href="https://fr.linkedin.com/in/serge-olinga-712706262">
+    <span class="contact-label">LinkedIn</span>
+    <span class="contact-value">fr.linkedin.com/in/serge-olinga-712706262</span>
+  </a>
+</div>
+```
