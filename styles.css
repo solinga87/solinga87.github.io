@@ -300,7 +300,8 @@ footer {
 
 /* --- Fiches : barre auteur (gauche) + Code / Autre format (droite) --- */
 
-/* on remplace le bloc meta par defaut de Quarto par notre propre barre */
+/* les fiches n'ont plus d'auteur/date en front matter : on masque le bloc
+   meta natif de Quarto (vide) au profit de .fiche-topbar */
 #quarto-document-content:has(.fiche-topbar) .quarto-title-meta {
   display: none;
 }
@@ -329,24 +330,24 @@ footer {
 }
 
 .fiche-topbar-actions {
-  flex: 0 0 240px;
+  flex: 0 0 190px;
   text-align: right;
 }
 
 /* Encart "Autre format" sous le bouton Code */
 .fiche-format-box {
-  margin-top: 0.85rem;
-  padding: 0.8rem 1rem;
+  margin-top: 0.7rem;
+  padding: 0.55rem 0.7rem;
   border: 1px solid #e2e2dc;
-  border-radius: 6px;
+  border-radius: 5px;
   text-align: left;
 }
 
 .fiche-format-box > p:first-child {
-  margin: 0 0 0.45rem;
+  margin: 0 0 0.3rem;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.7rem;
+  letter-spacing: 0.07em;
+  font-size: 0.62rem;
   font-weight: 600;
   color: #b5532a;
 }
@@ -354,14 +355,16 @@ footer {
 .fiche-pdf-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
+  gap: 0.35rem;
   color: #1a1a1a;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.82rem;
 }
 
 .fiche-pdf-link svg {
   flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
   color: #c0392b;
 }
 
@@ -379,6 +382,6 @@ footer {
     text-align: left;
   }
   .fiche-format-box {
-    max-width: 260px;
+    max-width: 220px;
   }
 }
