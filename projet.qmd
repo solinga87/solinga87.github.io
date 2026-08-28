@@ -6,7 +6,7 @@ listing:
   contents: projet
   template: listing.ejs
   sort: "date desc"
-  categories: true
+  categories: false
   sort-ui: false
   filter-ui: false
 ---
