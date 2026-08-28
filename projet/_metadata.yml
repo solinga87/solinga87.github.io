@@ -3,3 +3,10 @@ toc: true
 toc-location: left
 toc-title: "Sur cette page"
 toc-depth: 3
+
+format:
+  html: default
+  pdf: default
+
+# On fournit notre propre encart "Autre format" -> on masque celui de Quarto
+format-links: false
