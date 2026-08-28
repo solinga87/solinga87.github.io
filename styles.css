@@ -236,23 +236,24 @@ footer {
   }
 }
 
-/* --- Contact : cadres longs, pleine largeur --- */
+/* --- Contact : cadres longs, occupant toute la hauteur --- */
 .contact-grid {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   max-width: 100%;
   margin-top: 2rem;
+  min-height: calc(100vh - 300px);
 }
 
 .contact-card {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
   gap: 2rem;
+  flex: 1 1 0;
   width: 100%;
-  min-height: 96px;
-  padding: 1.9rem 2.5rem;
+  padding: 2rem 2.5rem;
   border: 1px solid #e2e2dc;
   border-radius: 8px;
   text-decoration: none;
@@ -282,8 +283,13 @@ footer {
 }
 
 @media (max-width: 680px) {
+  .contact-grid {
+    min-height: 0;
+  }
   .contact-card {
+    flex: 0 0 auto;
     flex-direction: column;
+    align-items: flex-start;
     gap: 0.4rem;
     padding: 1.5rem 1.6rem;
   }
@@ -292,7 +298,23 @@ footer {
   }
 }
 
-/* --- Fiches : lien Code en tete (a la place de la date) --- */
+/* --- Fiches : lien Code aligne a droite, sur la ligne de l'auteur --- */
 .fiche-header-links {
-  margin: -0.25rem 0 2rem;
+  float: right;
+  margin: -2.9rem 0 0.5rem;
+}
+
+.fiche-header-links p {
+  margin: 0;
+}
+
+.fiche-header-links + section {
+  clear: both;
+}
+
+@media (max-width: 680px) {
+  .fiche-header-links {
+    float: none;
+    margin: 0 0 1.5rem;
+  }
 }
