@@ -1,0 +1,16 @@
+[
+  {
+    "listing": "/projet.html",
+    "items": [
+      "/projet/ouverture-financiere-croissance/index.html",
+      "/projet/modele-gravitaire/index.html"
+    ]
+  },
+  {
+    "listing": "/analyse-donnees.html",
+    "items": [
+      "/analyse-donnees/prevision-inflation/index.html",
+      "/analyse-donnees/commerce-exterieur/index.html"
+    ]
+  }
+]

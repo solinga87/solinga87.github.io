@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Serge Olinga Olinga">
+<meta name="description" content="Comparaison de modèles ARIMA, VAR et lissage exponentiel pour prévoir l’inflation mensuelle à court terme, avec évaluation hors échantillon.">
 
-<title>Contact – Serge Olinga Olinga</title>
+<title>Prévision de l’inflation par séries temporelles – Serge Olinga Olinga</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,23 +31,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d63a2c9c8df14b07662b36303925c8cc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d63a2c9c8df14b07662b36303925c8cc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -85,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Serge Olinga Olinga</span>
     </a>
   </div>
@@ -96,15 +98,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projet.html"> 
+    <a class="nav-link" href="../../projet.html"> 
 <span class="menu-text">Projet</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./analyse-donnees.html"> 
+    <a class="nav-link" href="../../analyse-donnees.html"> 
 <span class="menu-text">Analyse de données</span></a>
   </li>  
 </ul>
@@ -124,14 +126,36 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Contact</h1>
-</div>
+<h1 class="title">Prévision de l’inflation par séries temporelles</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Macroéconomie</div>
+    <div class="quarto-category">Séries temporelles</div>
+    <div class="quarto-category">Prévision</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Comparaison de modèles ARIMA, VAR et lissage exponentiel pour prévoir l’inflation mensuelle à court terme, avec évaluation hors échantillon.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Auteur·rice</div>
+    <div class="quarto-title-meta-contents">
+             <p>Serge Olinga Olinga </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Date de publication</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">10 août 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -141,15 +165,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="coordonnées" class="level2">
-<h2 class="anchored" data-anchor-id="coordonnées">Coordonnées</h2>
-<p><strong>Email :</strong> <a href="mailto:sergeolinga320@gmail.com">sergeolinga320@gmail.com</a></p>
+<section id="objectif" class="level2">
+<h2 class="anchored" data-anchor-id="objectif">Objectif</h2>
+<p>Évaluer quelques modèles simples de prévision de l’inflation mensuelle et mesurer leur performance hors échantillon.</p>
 </section>
-<section id="liens" class="level2">
-<h2 class="anchored" data-anchor-id="liens">Liens</h2>
+<section id="données" class="level2">
+<h2 class="anchored" data-anchor-id="données">Données</h2>
 <ul>
-<li><a href="https://github.com/solinga87">GitHub</a></li>
+<li>Indice des prix à la consommation (série mensuelle, 2005–2025)</li>
+<li>Variables auxiliaires : prix de l’énergie, taux de change, masse monétaire</li>
 </ul>
+</section>
+<section id="méthode" class="level2">
+<h2 class="anchored" data-anchor-id="méthode">Méthode</h2>
+<ul>
+<li>Modèles : ARIMA, lissage exponentiel (ETS), VAR réduit</li>
+<li>Validation par fenêtre glissante, critères RMSE et MAE</li>
+<li>Combinaison de prévisions</li>
+</ul>
+</section>
+<section id="résultats" class="level2">
+<h2 class="anchored" data-anchor-id="résultats">Résultats</h2>
+<p><em>À compléter : classement des modèles, gains de la combinaison, limites et pistes d’amélioration.</em></p>
 
 
 </section>
@@ -565,7 +602,7 @@ ul.task-list li input[type="checkbox"] {
 <p>© 2026 Serge Olinga Olinga</p>
 </div>
     <div class="nav-footer-right">
-<p><a href="./contact.html">Contact</a></p>
+<p><a href="../../contact.html">Contact</a></p>
 </div>
   </div>
 </footer>

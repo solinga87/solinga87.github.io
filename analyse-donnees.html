@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Contact – Serge Olinga Olinga</title>
+<title>Analyse de données – Serge Olinga Olinga</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,6 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -73,12 +75,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-analyses .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-lang','listing-engines','listing-language','listing-title','listing-description','listing-image','listing-image-caption','listing-image-alt','listing-listing-label','listing-categories','listing-author','listing-pub-info','listing-link-report','listing-link-code','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-lang","listing-engines","listing-language","listing-title","listing-description","listing-image","listing-image-caption","listing-image-alt","listing-listing-label","listing-categories","listing-author","listing-pub-info","listing-link-report","listing-link-code","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-analyses'] = new List('listing-analyses', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -104,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projet</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./analyse-donnees.html"> 
+    <a class="nav-link active" href="./analyse-donnees.html" aria-current="page"> 
 <span class="menu-text">Analyse de données</span></a>
   </li>  
 </ul>
@@ -115,21 +175,22 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Toutes <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29tbWVyY2UlMjBpbnRlcm5hdGlvbmFs">Commerce international <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjcm8lQzMlQTljb25vbWll">Macroéconomie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHIlQzMlQTl2aXNpb24=">Prévision <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UyVDMyVBOXJpZXMlMjB0ZW1wb3JlbGxlcw==">Séries temporelles <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VmlzdWFsaXNhdGlvbg==">Visualisation <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Contact</h1>
+<h1 class="title">Analyse de données</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -141,20 +202,74 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="coordonnées" class="level2">
-<h2 class="anchored" data-anchor-id="coordonnées">Coordonnées</h2>
-<p><strong>Email :</strong> <a href="mailto:sergeolinga320@gmail.com">sergeolinga320@gmail.com</a></p>
-</section>
-<section id="liens" class="level2">
-<h2 class="anchored" data-anchor-id="liens">Liens</h2>
-<ul>
-<li><a href="https://github.com/solinga87">GitHub</a></li>
-</ul>
+<p>Travaux d’analyse et de visualisation de données économiques.</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-custom" id="listing-analyses">
+<div class="course-listing">
+<div class="course-item">
+<div class="course-thumb">
+<p><a href="./analyse-donnees/prevision-inflation/index.html"><img src="./analyse-donnees/prevision-inflation/cover.svg" alt="Courbe d'inflation observée et prévue avec bandes d'incertitude" loading="lazy"></a></p>
+<figcaption class="course-thumb-caption">
+Prévisions d’inflation à 12 mois et intervalles de confiance à 80 % et 95 %.
+</figcaption>
+</div>
+<div class="course-body">
+<div class="course-label">
+ANALYSE DE DONNÉES
+</div>
+<h3 class="course-title anchored">
+<a href="./analyse-donnees/prevision-inflation/index.html">Prévision de l’inflation par séries temporelles</a>
+</h3>
+<div class="course-authors">
+Serge Olinga Olinga
+</div>
+<div class="course-pubinfo">
+Projet personnel · 2026
+</div>
+<p class="course-desc">
+Comparaison de modèles ARIMA, VAR et lissage exponentiel pour prévoir l’inflation mensuelle à court terme, avec évaluation hors échantillon.
+</p>
+<div class="course-links">
+<p><a class="btn btn-sm btn-primary" href="#">Rapport / Document</a></p>
+<p><a class="btn btn-sm btn-outline-secondary" href="https://github.com/solinga87">Code</a></p>
+</div>
+</div>
+</div>
+<div class="course-item">
+<div class="course-thumb">
+<p><a href="./analyse-donnees/commerce-exterieur/index.html"><img src="./analyse-donnees/commerce-exterieur/cover.svg" alt="Tableau de bord de statistiques du commerce extérieur" loading="lazy"></a></p>
+<figcaption class="course-thumb-caption">
+Décomposition du solde commercial par grand groupe de produits, 2004–2024.
+</figcaption>
+</div>
+<div class="course-body">
+<div class="course-label">
+ANALYSE DE DONNÉES
+</div>
+<h3 class="course-title anchored">
+<a href="./analyse-donnees/commerce-exterieur/index.html">Tableau de bord du commerce extérieur</a>
+</h3>
+<div class="course-authors">
+Serge Olinga Olinga
+</div>
+<div class="course-pubinfo">
+Projet personnel · 2026
+</div>
+<p class="course-desc">
+Exploration et visualisation des exportations et importations : partenaires, produits, soldes commerciaux et dynamique sur vingt ans.
+</p>
+<div class="course-links">
+<p><a class="btn btn-sm btn-primary" href="#">Rapport / Document</a></p>
+<p><a class="btn btn-sm btn-outline-secondary" href="https://github.com/solinga87">Code</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">Aucun article correspondant</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

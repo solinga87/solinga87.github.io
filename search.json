@@ -21,6 +21,55 @@
     "text": "Travaux en cours\n[À COMPLÉTER : liste ou description des projets de recherche en cours, sans lien si non publiés.]"
   },
   {
+    "objectID": "index.html#à-propos",
+    "href": "index.html#à-propos",
+    "title": "Serge Olinga Olinga",
+    "section": "À propos",
+    "text": "À propos\nÉtudiant en Master 2 Économie à l’Université Clermont Auvergne, je m’intéresse aux ressorts du commerce international et de la finance internationale, et à ce qu’ils impliquent pour la conception des politiques publiques. J’aime comprendre comment les échanges et les flux de capitaux mondiaux façonnent les trajectoires économiques des nations — et en tirer des grilles de lecture utiles à la décision publique. Rigueur analytique et curiosité pour les enjeux concrets guident mon travail."
+  },
+  {
+    "objectID": "index.html#intérêts-de-recherche",
+    "href": "index.html#intérêts-de-recherche",
+    "title": "Serge Olinga Olinga",
+    "section": "Intérêts de recherche",
+    "text": "Intérêts de recherche\n\nCommerce international\nFinance internationale\nPolitiques publiques"
+  },
+  {
+    "objectID": "projet/modele-gravitaire/index.html",
+    "href": "projet/modele-gravitaire/index.html",
+    "title": "Déterminants des flux commerciaux bilatéraux",
+    "section": "",
+    "text": "Quels sont les principaux déterminants des échanges commerciaux entre deux pays, et quel poids relatif accorder à la géographie, aux institutions et aux politiques commerciales ?"
+  },
+  {
+    "objectID": "projet/modele-gravitaire/index.html#question",
+    "href": "projet/modele-gravitaire/index.html#question",
+    "title": "Déterminants des flux commerciaux bilatéraux",
+    "section": "",
+    "text": "Quels sont les principaux déterminants des échanges commerciaux entre deux pays, et quel poids relatif accorder à la géographie, aux institutions et aux politiques commerciales ?"
+  },
+  {
+    "objectID": "projet/modele-gravitaire/index.html#données",
+    "href": "projet/modele-gravitaire/index.html#données",
+    "title": "Déterminants des flux commerciaux bilatéraux",
+    "section": "Données",
+    "text": "Données\n\nFlux commerciaux bilatéraux (BACI / CEPII), 2000–2020\nVariables de gravité : PIB, distance, langue commune, frontière, colonie\nAccords commerciaux régionaux et unions monétaires"
+  },
+  {
+    "objectID": "projet/modele-gravitaire/index.html#méthode",
+    "href": "projet/modele-gravitaire/index.html#méthode",
+    "title": "Déterminants des flux commerciaux bilatéraux",
+    "section": "Méthode",
+    "text": "Méthode\nModèle de gravité estimé en PPML (Poisson pseudo-maximum de vraisemblance) avec effets fixes pays-origine × année et pays-destination × année, pour tenir compte des résistances multilatérales."
+  },
+  {
+    "objectID": "projet/modele-gravitaire/index.html#résultats",
+    "href": "projet/modele-gravitaire/index.html#résultats",
+    "title": "Déterminants des flux commerciaux bilatéraux",
+    "section": "Résultats",
+    "text": "Résultats\nÀ compléter : coefficients estimés, élasticité au commerce de la distance et des accords commerciaux, tests de robustesse."
+  },
+  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
@@ -42,17 +91,122 @@
     "text": "Liens\n\nGitHub"
   },
   {
-    "objectID": "index.html#à-propos",
-    "href": "index.html#à-propos",
-    "title": "Serge Olinga Olinga",
-    "section": "À propos",
-    "text": "À propos\nÉtudiant en Master 2 Économie à l’Université Clermont Auvergne, je m’intéresse aux ressorts du commerce international et de la finance internationale, et à ce qu’ils impliquent pour la conception des politiques publiques. J’aime comprendre comment les échanges et les flux de capitaux mondiaux façonnent les trajectoires économiques des nations — et en tirer des grilles de lecture utiles à la décision publique. Rigueur analytique et curiosité pour les enjeux concrets guident mon travail."
+    "objectID": "analyse-donnees/prevision-inflation/index.html",
+    "href": "analyse-donnees/prevision-inflation/index.html",
+    "title": "Prévision de l’inflation par séries temporelles",
+    "section": "",
+    "text": "Évaluer quelques modèles simples de prévision de l’inflation mensuelle et mesurer leur performance hors échantillon."
   },
   {
-    "objectID": "index.html#intérêts-de-recherche",
-    "href": "index.html#intérêts-de-recherche",
-    "title": "Serge Olinga Olinga",
-    "section": "Intérêts de recherche",
-    "text": "Intérêts de recherche\n\nCommerce international\nFinance internationale\nPolitiques publiques"
+    "objectID": "analyse-donnees/prevision-inflation/index.html#objectif",
+    "href": "analyse-donnees/prevision-inflation/index.html#objectif",
+    "title": "Prévision de l’inflation par séries temporelles",
+    "section": "",
+    "text": "Évaluer quelques modèles simples de prévision de l’inflation mensuelle et mesurer leur performance hors échantillon."
+  },
+  {
+    "objectID": "analyse-donnees/prevision-inflation/index.html#données",
+    "href": "analyse-donnees/prevision-inflation/index.html#données",
+    "title": "Prévision de l’inflation par séries temporelles",
+    "section": "Données",
+    "text": "Données\n\nIndice des prix à la consommation (série mensuelle, 2005–2025)\nVariables auxiliaires : prix de l’énergie, taux de change, masse monétaire"
+  },
+  {
+    "objectID": "analyse-donnees/prevision-inflation/index.html#méthode",
+    "href": "analyse-donnees/prevision-inflation/index.html#méthode",
+    "title": "Prévision de l’inflation par séries temporelles",
+    "section": "Méthode",
+    "text": "Méthode\n\nModèles : ARIMA, lissage exponentiel (ETS), VAR réduit\nValidation par fenêtre glissante, critères RMSE et MAE\nCombinaison de prévisions"
+  },
+  {
+    "objectID": "analyse-donnees/prevision-inflation/index.html#résultats",
+    "href": "analyse-donnees/prevision-inflation/index.html#résultats",
+    "title": "Prévision de l’inflation par séries temporelles",
+    "section": "Résultats",
+    "text": "Résultats\nÀ compléter : classement des modèles, gains de la combinaison, limites et pistes d’amélioration."
+  },
+  {
+    "objectID": "analyse-donnees/commerce-exterieur/index.html",
+    "href": "analyse-donnees/commerce-exterieur/index.html",
+    "title": "Tableau de bord du commerce extérieur",
+    "section": "",
+    "text": "Construire un tableau de bord reproductible qui synthétise la position commerciale d’un pays : principaux partenaires, spécialisation par produit et évolution du solde."
+  },
+  {
+    "objectID": "analyse-donnees/commerce-exterieur/index.html#objectif",
+    "href": "analyse-donnees/commerce-exterieur/index.html#objectif",
+    "title": "Tableau de bord du commerce extérieur",
+    "section": "",
+    "text": "Construire un tableau de bord reproductible qui synthétise la position commerciale d’un pays : principaux partenaires, spécialisation par produit et évolution du solde."
+  },
+  {
+    "objectID": "analyse-donnees/commerce-exterieur/index.html#données",
+    "href": "analyse-donnees/commerce-exterieur/index.html#données",
+    "title": "Tableau de bord du commerce extérieur",
+    "section": "Données",
+    "text": "Données\n\nSéries d’exportations et importations (Comtrade / douanes nationales)\nNomenclature produits harmonisée (SH2)"
+  },
+  {
+    "objectID": "analyse-donnees/commerce-exterieur/index.html#outils",
+    "href": "analyse-donnees/commerce-exterieur/index.html#outils",
+    "title": "Tableau de bord du commerce extérieur",
+    "section": "Outils",
+    "text": "Outils\nR (tidyverse, ggplot2), rapport paramétré Quarto, mise à jour automatisée des figures."
+  },
+  {
+    "objectID": "analyse-donnees/commerce-exterieur/index.html#contenu",
+    "href": "analyse-donnees/commerce-exterieur/index.html#contenu",
+    "title": "Tableau de bord du commerce extérieur",
+    "section": "Contenu",
+    "text": "Contenu\nÀ compléter : captures du tableau de bord, principaux constats, lien vers la version interactive."
+  },
+  {
+    "objectID": "projet/ouverture-financiere-croissance/index.html",
+    "href": "projet/ouverture-financiere-croissance/index.html",
+    "title": "Ouverture financière et volatilité de la croissance",
+    "section": "",
+    "text": "L’ouverture du compte de capital réduit-elle ou amplifie-t-elle la volatilité de la croissance dans les pays émergents et en développement ?"
+  },
+  {
+    "objectID": "projet/ouverture-financiere-croissance/index.html#question",
+    "href": "projet/ouverture-financiere-croissance/index.html#question",
+    "title": "Ouverture financière et volatilité de la croissance",
+    "section": "",
+    "text": "L’ouverture du compte de capital réduit-elle ou amplifie-t-elle la volatilité de la croissance dans les pays émergents et en développement ?"
+  },
+  {
+    "objectID": "projet/ouverture-financiere-croissance/index.html#données",
+    "href": "projet/ouverture-financiere-croissance/index.html#données",
+    "title": "Ouverture financière et volatilité de la croissance",
+    "section": "Données",
+    "text": "Données\n\nIndices d’ouverture financière (Chinn-Ito, mesures de facto)\nCroissance du PIB réel par habitant, 1990–2022\nContrôles : qualité institutionnelle, profondeur financière, termes de l’échange"
+  },
+  {
+    "objectID": "projet/ouverture-financiere-croissance/index.html#méthode",
+    "href": "projet/ouverture-financiere-croissance/index.html#méthode",
+    "title": "Ouverture financière et volatilité de la croissance",
+    "section": "Méthode",
+    "text": "Méthode\nRégressions en panel dynamique (GMM en système) avec interactions entre ouverture financière et niveau de développement financier, pour tester l’hypothèse de seuil."
+  },
+  {
+    "objectID": "projet/ouverture-financiere-croissance/index.html#résultats",
+    "href": "projet/ouverture-financiere-croissance/index.html#résultats",
+    "title": "Ouverture financière et volatilité de la croissance",
+    "section": "Résultats",
+    "text": "Résultats\nÀ compléter : effet moyen, rôle du seuil de développement financier, implications pour le séquençage de la libéralisation."
+  },
+  {
+    "objectID": "projet.html",
+    "href": "projet.html",
+    "title": "Projet",
+    "section": "",
+    "text": "Projets d’économie appliquée : question de recherche, données, méthode et résultats.\n\n\n\n\n\n\n\n\n\n\nVolatilité de la croissance du PIB selon le degré d’ouverture financière (moyennes par décile).\n\n\n\n\nPROJET DE RECHERCHE\n\n\nOuverture financière et volatilité de la croissance\n\n\nSerge Olinga Olinga\n\n\nMaster 2 Économie · Université Clermont Auvergne · 2026\n\n\nÉtude empirique du lien entre intégration financière internationale et volatilité macroéconomique dans les économies émergentes et en développement.\n\n\nRapport / Document\nCode\n\n\n\n\n\n\n\nFlux commerciaux bilatéraux prédits par le modèle de gravité (échantillon 2000–2020).\n\n\n\n\nPROJET DE RECHERCHE\n\n\nDéterminants des flux commerciaux bilatéraux\n\n\nSerge Olinga Olinga\n\n\nMaster 2 Économie · Université Clermont Auvergne · 2026\n\n\nEstimation d’un modèle de gravité sur données de panel pour mesurer l’effet de la distance, des accords commerciaux et de la monnaie commune sur les échanges.\n\n\nRapport / Document\nCode\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "analyse-donnees.html",
+    "href": "analyse-donnees.html",
+    "title": "Analyse de données",
+    "section": "",
+    "text": "Travaux d’analyse et de visualisation de données économiques.\n\n\n\n\n\n\n\n\n\n\nPrévisions d’inflation à 12 mois et intervalles de confiance à 80 % et 95 %.\n\n\n\n\nANALYSE DE DONNÉES\n\n\nPrévision de l’inflation par séries temporelles\n\n\nSerge Olinga Olinga\n\n\nProjet personnel · 2026\n\n\nComparaison de modèles ARIMA, VAR et lissage exponentiel pour prévoir l’inflation mensuelle à court terme, avec évaluation hors échantillon.\n\n\nRapport / Document\nCode\n\n\n\n\n\n\n\nDécomposition du solde commercial par grand groupe de produits, 2004–2024.\n\n\n\n\nANALYSE DE DONNÉES\n\n\nTableau de bord du commerce extérieur\n\n\nSerge Olinga Olinga\n\n\nProjet personnel · 2026\n\n\nExploration et visualisation des exportations et importations : partenaires, produits, soldes commerciaux et dynamique sur vingt ans.\n\n\nRapport / Document\nCode\n\n\n\n\nAucun article correspondant"
   }
 ]
