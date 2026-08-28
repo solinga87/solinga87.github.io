@@ -19,6 +19,17 @@ h1, h2, h3 {
   letter-spacing: -0.01em;
 }
 
+#title-block-header .title,
+.quarto-title .title {
+  font-size: 2.6rem;
+  line-height: 1.15;
+}
+
+.intro-text h1 {
+  font-size: 2.6rem;
+  line-height: 1.15;
+}
+
 .avatar {
   border-radius: 50%;
   width: 160px;
@@ -113,8 +124,9 @@ footer {
 }
 
 .course-title {
-  margin: 0 0 0.4rem;
-  font-size: 1.35rem;
+  margin: 0 0 0.5rem;
+  font-size: 1.9rem;
+  line-height: 1.2;
 }
 
 .course-title a {
@@ -209,8 +221,8 @@ footer {
 }
 
 .interest h3 {
-  font-size: 1.05rem;
-  margin: 0 0 0.3rem;
+  font-size: 1.3rem;
+  margin: 0 0 0.35rem;
 }
 
 .interest p {
@@ -228,18 +240,20 @@ footer {
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.25rem;
-  max-width: 640px;
-  margin-top: 1.5rem;
+  gap: 1.75rem;
+  max-width: 920px;
+  margin-top: 2rem;
 }
 
 .contact-card {
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
-  padding: 1.25rem 1.4rem;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 170px;
+  padding: 2.25rem 2.25rem;
   border: 1px solid #e2e2dc;
-  border-radius: 6px;
+  border-radius: 8px;
   text-decoration: none;
   color: inherit;
   transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
@@ -253,14 +267,14 @@ footer {
 
 .contact-card .contact-label {
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  font-size: 0.8rem;
   font-weight: 600;
   color: #b5532a;
 }
 
 .contact-card .contact-value {
-  font-size: 1rem;
+  font-size: 1.25rem;
   color: #1a1a1a;
   word-break: break-word;
 }
