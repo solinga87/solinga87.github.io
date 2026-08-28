@@ -298,20 +298,39 @@ footer {
   }
 }
 
-/* --- Fiches : lien Code aligne a droite, sur la ligne de l'auteur --- */
-.fiche-header-links {
-  float: right;
-  width: 230px;
-  margin: -2.9rem 0 0.5rem;
+/* --- Fiches : barre auteur (gauche) + Code / Autre format (droite) --- */
+
+/* on remplace le bloc meta par defaut de Quarto par notre propre barre */
+#quarto-document-content:has(.fiche-topbar) .quarto-title-meta {
+  display: none;
+}
+
+.fiche-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 0.5rem 0 2.25rem;
+}
+
+.fiche-topbar-author .lbl {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.8rem;
+  color: #6b6b6b;
+  margin-bottom: 0.15rem;
+}
+
+.fiche-topbar-author .name {
+  display: block;
+  font-size: 1rem;
+  color: #1a1a1a;
+}
+
+.fiche-topbar-actions {
+  flex: 0 0 240px;
   text-align: right;
-}
-
-.fiche-header-links p {
-  margin: 0;
-}
-
-.fiche-header-links + section {
-  clear: both;
 }
 
 /* Encart "Autre format" sous le bouton Code */
@@ -351,10 +370,12 @@ footer {
 }
 
 @media (max-width: 680px) {
-  .fiche-header-links {
-    float: none;
-    width: auto;
-    margin: 0 0 1.5rem;
+  .fiche-topbar {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .fiche-topbar-actions {
+    flex-basis: auto;
     text-align: left;
   }
   .fiche-format-box {
