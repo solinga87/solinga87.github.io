@@ -147,3 +147,162 @@ footer {
   flex-wrap: wrap;
   gap: 0.5rem;
 }
+
+/* --- Accueil : intro --- */
+.intro {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 1.75rem;
+  align-items: start;
+  margin: 1rem 0 2.5rem;
+}
+
+.intro .avatar {
+  width: 180px;
+  height: 180px;
+  float: none;
+  margin: 0;
+}
+
+.intro-text h1 {
+  margin: 0 0 0.25rem;
+}
+
+.intro-title {
+  color: #666;
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 680px) {
+  .intro {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .intro .avatar {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* --- Accueil : centres d'intérêt --- */
+.interests {
+  margin: 2.5rem 0;
+}
+
+.interests > h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.interest {
+  margin-bottom: 1.25rem;
+}
+
+.interest h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.2rem;
+}
+
+.interest p {
+  margin: 0;
+  color: #444;
+}
+
+/* --- Accueil : sélection de travaux --- */
+.featured > h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.featured-item {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.featured-img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #e2e2dc;
+}
+
+.featured-label {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #b5532a;
+  margin-bottom: 0.35rem;
+}
+
+.featured-body h3 {
+  margin: 0 0 0.3rem;
+  font-size: 1.35rem;
+}
+
+.featured-body h3 a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.featured-body h3 a:hover {
+  text-decoration: underline;
+}
+
+.featured-meta {
+  font-style: italic;
+  color: #777;
+  margin-bottom: 0.6rem;
+}
+
+.featured-links {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 680px) {
+  .featured-item {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+/* --- Contact : liste --- */
+.contact-list {
+  max-width: 640px;
+  margin-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.contact-row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.contact-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.contact-row a {
+  color: #1a5276;
+  text-decoration: none;
+}
+
+.contact-row a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 680px) {
+  .contact-row {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+}

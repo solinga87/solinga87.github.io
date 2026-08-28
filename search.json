@@ -21,18 +21,25 @@
     "text": "Travaux en cours\n[À COMPLÉTER : liste ou description des projets de recherche en cours, sans lien si non publiés.]"
   },
   {
-    "objectID": "index.html#à-propos",
-    "href": "index.html#à-propos",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Serge Olinga Olinga",
-    "section": "À propos",
-    "text": "À propos\nÉtudiant en Master 2 Économie à l’Université Clermont Auvergne, je m’intéresse aux ressorts du commerce international et de la finance internationale, et à ce qu’ils impliquent pour la conception des politiques publiques. J’aime comprendre comment les échanges et les flux de capitaux mondiaux façonnent les trajectoires économiques des nations — et en tirer des grilles de lecture utiles à la décision publique. Rigueur analytique et curiosité pour les enjeux concrets guident mon travail."
+    "section": "",
+    "text": "Étudiant en Master 2 Économie · Université Clermont Auvergne\n\nJe suis étudiant en Master 2 Économie à l’Université Clermont Auvergne. Mon travail porte sur le commerce international et la finance internationale, et sur ce qu’ils impliquent pour la conception des politiques publiques. Je cherche à comprendre comment les échanges de biens et les flux de capitaux mondiaux façonnent les trajectoires économiques des nations, en m’appuyant sur les outils de la microéconomie appliquée et de l’économétrie. Deux fils conducteurs traversent ce travail : la mesure empirique des mécanismes en jeu et la reproductibilité des analyses. Les personnes travaillant sur des questions proches sont les bienvenues pour échanger."
   },
   {
-    "objectID": "index.html#intérêts-de-recherche",
-    "href": "index.html#intérêts-de-recherche",
+    "objectID": "index.html#centres-dintérêt",
+    "href": "index.html#centres-dintérêt",
     "title": "Serge Olinga Olinga",
-    "section": "Intérêts de recherche",
-    "text": "Intérêts de recherche\n\nCommerce international\nFinance internationale\nPolitiques publiques"
+    "section": "Centres d’intérêt",
+    "text": "Centres d’intérêt\n\nI. Commerce international\nDéterminants des échanges bilatéraux, effets des accords commerciaux et insertion des économies en développement dans le commerce mondial.\n\n\nII. Finance internationale\nFlux de capitaux, ouverture financière et stabilité macroéconomique dans les économies émergentes et en développement.\n\n\nIII. Politiques publiques\nCe que les résultats de l’économie internationale impliquent pour la conception, le séquençage et l’évaluation des politiques.\n\n\nIV. Données et méthodes\nConstruction de jeux de données à partir de sources statistiques, économétrie appliquée et analyses reproductibles."
+  },
+  {
+    "objectID": "index.html#sélection-de-travaux",
+    "href": "index.html#sélection-de-travaux",
+    "title": "Serge Olinga Olinga",
+    "section": "Sélection de travaux",
+    "text": "Sélection de travaux\n\n\n\n\nProjet en vedette\n\n\nDéterminants des flux commerciaux bilatéraux\n\nProjet de recherche · Master 2 · 2026\n\nEstimation d’un modèle de gravité sur données de panel pour mesurer l’effet de la distance, des accords commerciaux et de la monnaie commune sur les échanges.\n\nVoir le projet · Tous les projets"
   },
   {
     "objectID": "projet/modele-gravitaire/index.html",
@@ -74,21 +81,7 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Email : sergeolinga320@gmail.com"
-  },
-  {
-    "objectID": "contact.html#coordonnées",
-    "href": "contact.html#coordonnées",
-    "title": "Contact",
-    "section": "",
-    "text": "Email : sergeolinga320@gmail.com"
-  },
-  {
-    "objectID": "contact.html#liens",
-    "href": "contact.html#liens",
-    "title": "Contact",
-    "section": "Liens",
-    "text": "Liens\n\nGitHub"
+    "text": "Email\n\nsergeolinga320@gmail.com\n\n\n\nLinkedIn\n\nfr.linkedin.com/in/serge-olinga-712706262"
   },
   {
     "objectID": "analyse-donnees/prevision-inflation/index.html",
