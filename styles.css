@@ -301,7 +301,9 @@ footer {
 /* --- Fiches : lien Code aligne a droite, sur la ligne de l'auteur --- */
 .fiche-header-links {
   float: right;
+  width: 230px;
   margin: -2.9rem 0 0.5rem;
+  text-align: right;
 }
 
 .fiche-header-links p {
@@ -312,9 +314,50 @@ footer {
   clear: both;
 }
 
+/* Encart "Autre format" sous le bouton Code */
+.fiche-format-box {
+  margin-top: 0.85rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid #e2e2dc;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.fiche-format-box > p:first-child {
+  margin: 0 0 0.45rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #b5532a;
+}
+
+.fiche-pdf-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: #1a1a1a;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.fiche-pdf-link svg {
+  flex: 0 0 auto;
+  color: #c0392b;
+}
+
+.fiche-pdf-link:hover {
+  color: #b5532a;
+}
+
 @media (max-width: 680px) {
   .fiche-header-links {
     float: none;
+    width: auto;
     margin: 0 0 1.5rem;
+    text-align: left;
+  }
+  .fiche-format-box {
+    max-width: 260px;
   }
 }
