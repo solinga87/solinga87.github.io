@@ -16,9 +16,10 @@ website:
         text: Projet
       - href: analyse-donnees.qmd
         text: "Analyse de données"
+      - href: contact.qmd
+        text: Contact
   page-footer:
     center: "© 2026 Serge Olinga Olinga"
-    right: "[Contact](/contact.qmd)"
 
 format:
   html:

@@ -2,10 +2,20 @@
 title: "Contact"
 ---
 
-## Coordonnées
+::: {.contact-list}
 
-**Email :** [sergeolinga320@gmail.com](mailto:sergeolinga320@gmail.com)
+::: {.contact-row}
+::: {.contact-label}
+Email
+:::
+[sergeolinga320@gmail.com](mailto:sergeolinga320@gmail.com)
+:::
 
-## Liens
+::: {.contact-row}
+::: {.contact-label}
+LinkedIn
+:::
+[fr.linkedin.com/in/serge-olinga-712706262](https://fr.linkedin.com/in/serge-olinga-712706262)
+:::
 
-- [GitHub](https://github.com/solinga87)
+:::

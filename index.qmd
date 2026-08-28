@@ -3,31 +3,82 @@ title: ""
 page-layout: full
 ---
 
-::: {.avatar-block}
+::: {.intro}
 ![](images/avatar.jpg){.avatar}
-:::
 
+::: {.intro-text}
 # Serge Olinga Olinga
 
-**Étudiant en Master 2 Économie — Université Clermont Auvergne**
-
-::: {.social-links}
-[Email](mailto:sergeolinga320@gmail.com)
+::: {.intro-title}
+Étudiant en Master 2 Économie · Université Clermont Auvergne
 :::
 
-## À propos
+Je suis étudiant en Master 2 Économie à l'Université Clermont Auvergne.
+Mon travail porte sur le commerce international et la finance
+internationale, et sur ce qu'ils impliquent pour la conception des
+politiques publiques. Je cherche à comprendre comment les échanges de
+biens et les flux de capitaux mondiaux façonnent les trajectoires
+économiques des nations, en m'appuyant sur les outils de la
+microéconomie appliquée et de l'économétrie. Deux fils conducteurs
+traversent ce travail : la mesure empirique des mécanismes en jeu et la
+reproductibilité des analyses. Les personnes travaillant sur des
+questions proches sont les bienvenues pour échanger.
+:::
+:::
 
-Étudiant en Master 2 Économie à l'Université Clermont Auvergne, je
-m'intéresse aux ressorts du commerce international et de la finance
-internationale, et à ce qu'ils impliquent pour la conception des
-politiques publiques. J'aime comprendre comment les échanges et les
-flux de capitaux mondiaux façonnent les trajectoires économiques des
-nations — et en tirer des grilles de lecture utiles à la décision
-publique. Rigueur analytique et curiosité pour les enjeux concrets
-guident mon travail.
+::: {.interests}
+## Centres d'intérêt
 
-## Intérêts de recherche
+::: {.interest}
+### I. Commerce international
+Déterminants des échanges bilatéraux, effets des accords commerciaux et
+insertion des économies en développement dans le commerce mondial.
+:::
 
-- Commerce international
-- Finance internationale
-- Politiques publiques
+::: {.interest}
+### II. Finance internationale
+Flux de capitaux, ouverture financière et stabilité macroéconomique dans
+les économies émergentes et en développement.
+:::
+
+::: {.interest}
+### III. Politiques publiques
+Ce que les résultats de l'économie internationale impliquent pour la
+conception, le séquençage et l'évaluation des politiques.
+:::
+
+::: {.interest}
+### IV. Données et méthodes
+Construction de jeux de données à partir de sources statistiques,
+économétrie appliquée et analyses reproductibles.
+:::
+:::
+
+::: {.featured}
+## Sélection de travaux
+
+::: {.featured-item}
+![](projet/modele-gravitaire/cover.svg){.featured-img}
+
+::: {.featured-body}
+::: {.featured-label}
+Projet en vedette
+:::
+
+### [Déterminants des flux commerciaux bilatéraux](projet/modele-gravitaire/index.qmd)
+
+::: {.featured-meta}
+Projet de recherche · Master 2 · 2026
+:::
+
+Estimation d'un modèle de gravité sur données de panel pour mesurer
+l'effet de la distance, des accords commerciaux et de la monnaie commune
+sur les échanges.
+
+::: {.featured-links}
+[Voir le projet](projet/modele-gravitaire/index.qmd) ·
+[Tous les projets](projet.qmd)
+:::
+:::
+:::
+:::
