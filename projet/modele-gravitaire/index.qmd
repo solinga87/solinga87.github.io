@@ -5,13 +5,14 @@ image: cover.svg
 image-caption: "Flux commerciaux bilatéraux prédits par le modèle de gravité (échantillon 2000–2020)."
 image-alt: "Carte stylisée de flux commerciaux entre pays"
 listing-label: "PROJET DE RECHERCHE"
-categories: [Commerce international, Économétrie, Panel]
 author: "Serge Olinga Olinga"
 pub-info: "Master 2 Économie · Université Clermont Auvergne · 2026"
 link-report: "#"
 link-code: "https://github.com/solinga87"
-date: "2026-05-15"
+order: 2
 ---
+
+[Rapport](#){.btn .btn-primary}
 
 ## Question
 

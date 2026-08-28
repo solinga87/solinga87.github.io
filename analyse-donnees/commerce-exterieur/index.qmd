@@ -5,13 +5,14 @@ image: cover.svg
 image-caption: "Décomposition du solde commercial par grand groupe de produits, 2004–2024."
 image-alt: "Tableau de bord de statistiques du commerce extérieur"
 listing-label: "ANALYSE DE DONNÉES"
-categories: [Commerce international, Visualisation, R]
 author: "Serge Olinga Olinga"
 pub-info: "Projet personnel · 2026"
 link-report: "#"
 link-code: "https://github.com/solinga87"
-date: "2026-07-20"
+order: 2
 ---
+
+[Rapport](#){.btn .btn-primary}
 
 ## Objectif
 

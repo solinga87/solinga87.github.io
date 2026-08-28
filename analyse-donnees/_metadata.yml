@@ -1,0 +1,5 @@
+# Options communes à toutes les fiches du dossier analyse-donnees/
+toc: true
+toc-location: left
+toc-title: "Sur cette page"
+toc-depth: 3

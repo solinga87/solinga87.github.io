@@ -22,10 +22,9 @@
 <p class="course-desc"><%= item.description %></p>
 <% } %>
 <div class="course-links">
-<% if (item['link-report']) { %>
-<a class="btn btn-sm btn-primary" href="<%= item['link-report'] %>">Rapport / Document</a>
-<% } %>
-<% if (item['link-code']) { %>
+<% const reportHref = (item['link-report'] && item['link-report'] !== '#') ? item['link-report'] : item.path; %>
+<a class="btn btn-sm btn-primary" href="<%= reportHref %>">Rapport / Document</a>
+<% if (item['link-code'] && item['link-code'] !== '#') { %>
 <a class="btn btn-sm btn-outline-secondary" href="<%= item['link-code'] %>">Code</a>
 <% } %>
 </div>
